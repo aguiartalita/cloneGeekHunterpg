@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500&display=swap');
+
+/* :root{
+} */
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.sessao-header{
+    background-color: #fff; 
+    left: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+.assets-logo {
+    width: 140px;
+    height: auto;
+    padding-left: 1em;
+}
+
+.list-header{
+    display: flex;
+    padding: 1em 0 0 35em;
+    align-self: center;
+    }
+
+.list-header a{
+    color: #11273a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding-right: 2em;
+}
+
+li:nth-child(4){
+    font-size: 14px;
+    border: 2px solid #9412dc;
+    background-color: #9412dc;
+    border-radius: 0.5em;
+    padding: 0 0.5em 0 1.5em ;
+}
+
+ #login-button{
+    color: #fff;
+    text-align: center;
+    
+ }
+
+ .candidates-login{
+    background: linear-gradient(#451A4A, #6E2B77);
+    width: 100%;
+    height: 100%;
+}
+
+.container-login{
+    padding: 3em 0 1em 0;
+    
+}
+
+.login-text{
+    font-family: "Open sans", sans-serif;
+    padding: 5rem 0 2rem 0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.painel-login{
+    background-color: #E2EFF1;
+    width: 28em;
+    border-radius: 0.3em 0.3em 0 0;
+    padding:1em;
+    margin: 0 10em 0 20em;
+}
+.painel-login h2{
+    font-size: 14px;
+    color: #6e2b77;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Open sans", sans-serif;
+}
+
+.painel-body{
+    background-color: #ffffff;
+    border-radius: 0 0 1em 1em;
+    width: 28em;
+    margin: 0 10em 0 20em;
+}
+
+.painel_forms{
+    display: grid;
+    padding: 2em 0 2em 2em;
+}
+
+.dados-login{
+    font-size: 14px;
+    font-family: "Open sans", sans-serif;
+    color: #939DA5;
+    font-weight: 600;
+    /* padding: 2em 0 0.5em 0; */
+}
+.dados-candidate{
+    height: 2em;
+    padding: 8px 12px;
+    line-height: 24px;
+    border-color: #C7CBCF;
+    color: #6b757d;
+    border-radius: 8px;
+}
+
+.dados-candidate:hover{
+    border-color: rgb(28, 178, 228);
+}
+
+.dados-senha{
+    padding: 1em 0 0 0;
+}
+.dados-candidate{
+    width: 20em;
+}
+.remember-me{
+    position: relative;
+    padding: 1em;
+    line-height: 24px;
+    font-weight: 400;
+    color: #939DA5;
+    width: 50%;
+}
+
+.text-right{
+    color:#11273a;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 1em;
+}
+.submit{
+    margin: 0 2em 0 2em;
+}
+.button-submit{
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #41A9B9
+}
+.option-cadastro{
+    width: 35em;
+    padding-top: 2em;
+}
+
+.option-cadastro p{
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    margin-bottom: 16px;
+    color: #ffff;
+    padding: 1em 0 3em 0;
+}
+
+.option-cadastro a{
+    color: #41A9B9 ;
+    text-shadow: 0 1px 2px rgb(17 39 58 / 56%) ;
+}

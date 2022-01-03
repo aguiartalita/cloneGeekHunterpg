@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>GeekHunter</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class=sessao-header>
+            <img class="assets-logo" src="./assets/geekhunter-logo.svg" alt="geekhunter"></img>
+            <ul class="list-header">
+                <li><a href="#" target="_self">ver vagas</a></li>
+                <li><a href="#" target="_self">para empresas</a></li>
+                <li><a href="#" target="_self">para devs</a></li>
+                <li><a href="#" target="_self" id="login-button">login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="candidates-login">
+        <section class="main-section">
+            <div class="">
+                <div class="">
+                    <div class="container-login">
+                        <h1 class="login-text">Bem-vindo!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <div class="painel-login col-md-9 offset-3">
+                <h2>log in</h2>
+            </div>
+            <div class="painel-body col-md-9 offset-3">
+                <form action="action_page" class="form-candidate" id="new_candidate" accept-charset="UTF-8">
+                    <div class="painel_forms">
+                        <label for="email" class="dados-login dados-email">Email</label>
+                        <input class="dados-candidate" type="text" placeholder="Digite o seu e-mail">
+                        <label for="psw" class="dados-login dados-senha">Senha</label>
+                        <input class="dados-candidate" type="password" placeholder="Digite a sua senha">
+                        <div class="row small-info-form">
+                            <label for="candidate_remember_me" class="remember-me">
+                                <input type="checkbox" value="1" name="candidate[remember_me]">Mantenha-me conectado
+                            </label>
+                            <div class="col-sm-5 col-xs-5 login-problems">
+                                <p class="text-right">
+                                    <a href="#">Problemas com o Log in?</a>
+                                </p>
+                            </div>
+                        </div>
+                     <div class="submit">
+                         <input type="submit" name="commit" value="Entrar" class="btn btn btn-primary btn-lg btn-block button-submit">
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="option-cadastro">
+                <p>
+                    Ainda não tem uma conta? <a href="#">Cadastrar grátis</a>
+                </p>
+            </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
